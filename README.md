@@ -1,4 +1,4 @@
-# BDE (Browser Download Exporter)
+# BDE (Browser Data Exporter)
 
 Requires pandas so use 'pip install pandas' 
 
