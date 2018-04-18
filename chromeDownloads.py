@@ -73,7 +73,7 @@ for array in sql3(dbFile, 'downloads'):
 full = str(data)
 full = full.replace("'", '"')
 full = full.replace("😋","'")
-dl = open("ChromeDownloadsHistory" + ".json", "w")
+dl = open("exported\ChromeDownloadsHistory" + ".json", "w")
 dl.write(str(full))
 print(full)
 # Closing the connection to the database file

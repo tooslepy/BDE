@@ -91,7 +91,7 @@ for array in result:
 
 full = str(data)
 full = full.replace("'", '"')
-dl = open("FirefoxDownloadH" + ".json", "w")
+dl = open("exported\FirefoxDownloadH" + ".json", "w")
 dl.write(str(full))
 print(full)
 # Closing the connection to the database file
