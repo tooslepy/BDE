@@ -61,4 +61,6 @@ downloads\.json
 
 venv/
 
+exported/
+
 \.idea/
