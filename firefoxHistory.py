@@ -22,7 +22,7 @@ c = conn.cursor()
 full = str(data)
 full = full.replace("'", '"')
 full = full.replace("😋","'")
-dl = open("FirefoxHistory" + ".json", "w")
+dl = open("exported\FirefoxHistory" + ".json", "w")
 dl.write(str(full))
 print(full)
 # Closing the connection to the database file
